@@ -1,0 +1,63 @@
+﻿l_english:
+
+# ideas
+ LAFI_adm_ideas: "LAFILˆ?etõV"
+ LAFI_adm_ideas_bonus: "LAFILˆ?etõVÎ‘ÃV"
+ LAFI_adm_ideas_1: "×r4Y›Q^"
+ LAFI_adm_ideas_1_desc: "¨RirgËSìN„vzfga0"
+ LAFI_adm_ideas_2: "Uaÿ"
+ LAFI_adm_ideas_2_desc: "NUa0"
+ LAFI_adm_ideas_3: "N©s‰R,g"
+ LAFI_adm_ideas_3_desc: ""
+ LAFI_adm_ideas_4: "—RYežR(uININ"
+ LAFI_adm_ideas_4_desc: "NckÛkPR=fÆ†0\n:V'Y„v=fÄOW¯eN=f«ƒ¯eÑy0"
+ LAFI_adm_ideas_5: "Æ†×rŒNøv'`"
+ LAFI_adm_ideas_5_desc: "ýwÆ†ýw×rÿbV`ASRYØS0"
+ LAFI_adm_ideas_6: "®V‚i‡s„vGYù"
+ LAFI_adm_ideas_6_desc: "NLu¿uóÃ-N..."
+ LAFI_adm_ideas_7: "r‚o0Sx0i0ÿceŠ0l0‹0’0"
+ LAFI_adm_ideas_7_desc: "eu4„vöeãNÈuSK„U^0"
+ LAFI_mil_ideas: "LAFI›Q‹NtõV"
+ LAFI_mil_ideas_bonus: "LAFI›Q‹NtõVÎ‘ÃV"
+ LAFI_mil_ideas_1: "YM|›QâV"
+ LAFI_mil_ideas_1_desc: "¨RirgËSìNegê”NVnÛVwm0"
+ LAFI_mil_ideas_2: "lÛ‚YÎ˜"
+ LAFI_mil_ideas_2_desc: "XR(WsS=fNRÿNR:N†NXR(W0"
+ LAFI_mil_ideas_3: "g¾–b^y"
+ LAFI_mil_ideas_3_desc: ""
+ LAFI_mil_ideas_4: "°e	NýV›Q‹Ntº‹"
+ LAFI_mil_ideas_4_desc: "ÜwuQÅV„šÿ„šuQÅV%ÿ%uQÅVÀTÿÀTuQÅVÜw0"
+ LAFI_mil_ideas_5: "^y·0àe0YØ`"
+ LAFI_mil_ideas_5_desc: ""
+ LAFI_mil_ideas_6: "pvpb=gcüR"
+ LAFI_mil_ideas_6_desc: ""
+ LAFI_mil_ideas_7: "LNC=f&TXR(Wÿ"
+ LAFI_mil_ideas_7_desc: ""
+# ideas_ended
+
+# events
+ LAFI_flavor_events.1.tt: "g¾–b^yÿ"
+ LAFI_flavor_events.1.desc: "Ù*N8nb*YŽrUS†Nÿ—‰ R¹p¾–¦^Tÿ\n\nåNNîOckON8nb¾–¦^¾‹nàS R0\n\n§Rèlaÿå‹‹NöNÅNæ‰ÑSN!kÿNÏu	ébàeÕl²d•0§ÿ"
+ LAFI_flavor_events.1.a: "Ø=f—r†N"
+ LAFI_flavor_events.1.b: "bSïQËe"
+ LAFI_flavor_events.1.b.tt: "aiS·ƒ—VNg¾–¾–¦^IrHe„vïSæ‰ÑSîOck0"
+ LAFI_flavor_events.1.c: "bÉ‰—VbmN=fai"
+ LAFI_flavor_events.1.c.tt: "aiN©s¶RS·ƒ—VNg¾–¾–¦^IrHe„vïSæ‰ÑSîOck0"
+ LAFI_flavor_events.1.d: "bó`Ù*N8nb*Y¾–†N..."
+ LAFI_flavor_events.1.d.tt: "©s¶RS·ƒ—VNg¾–¾–¦^IrHe„vïSæ‰ÑSîOck0"
+# events_ended
+
+#flags
+ LAFI_enable_very_hard_ai_triggered_modifier_global_flag: "=T(u˜Y„vaiIrHeg¾–ïSæ‰ÑSîOck"
+ LAFI_enable_very_hard_player_triggered_modifier_global_flag: "=T(u˜Y„v©s¶RIrHeg¾–ïSæ‰ÑSîOck"
+ LAFI_flavor_events_1_triggered_global_flag: "0g¾–b^y0‹NöNòTæ‰ÑS"
+# flags_ended
+
+# modifiers
+ LAFI_very_hard_ai_triggered_modifier_1: "aiIrHeg¾–îOck"
+ desc_LAFI_very_hard_ai_triggered_modifier_1: ""
+ LAFI_very_hard_player_triggered_modifier_2: "©s¶RIrHeg¾–îOck"
+ desc_LAFI_very_hard_player_triggered_modifier_2: ""
+# modifiers_ended
+
+ LAFI_animal_friends_company: "§T¨RirgËS§!"

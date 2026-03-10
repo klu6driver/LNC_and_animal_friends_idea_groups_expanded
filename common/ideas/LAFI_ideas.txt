@@ -1,0 +1,88 @@
+LAFI_adm_ideas = {
+    category = ADM
+
+    bonus = {
+        adm_tech_cost_modifier = -0.1
+    }
+
+    trigger = {
+        NOT = { ai = yes }
+    }
+
+    LAFI_adm_ideas_1 = {
+        advisor_cost = -0.15
+        advisor_pool = 3
+    }
+    LAFI_adm_ideas_2 = {
+        prestige = 1
+        monthly_piety_accelerator = 0.002
+    }
+    LAFI_adm_ideas_3 = {
+        core_creation = -0.1
+    }
+    LAFI_adm_ideas_4 = {
+        tolerance_heretic = 2
+        tolerance_heathen = 2
+    }
+    LAFI_adm_ideas_5 = {
+        culture_conversion_time = -0.33
+    }
+    LAFI_adm_ideas_6 = {
+        build_time = -0.1
+    }
+    LAFI_adm_ideas_7 = {
+        effect = {
+            add_stability = -1
+        }
+        administrative_efficiency = 0.1
+        yearly_doom_reduction = 0.5
+    }
+
+    ai_will_do = { factor = 0 }
+}
+
+LAFI_mil_ideas = {
+    category = MIL
+
+    bonus = {
+        manpower_recovery_speed = 0.05
+    }
+
+    trigger = {
+        NOT = { ai = yes }
+    }
+
+    LAFI_mil_ideas_1 = {
+        allow_mercenary_drill = yes
+        mercenary_manpower= 0.25
+        mercenary_discipline = 0.075
+    }
+    LAFI_mil_ideas_2 = {
+        effect = {
+            #省份改名，TODO
+        }
+        range = 1.0
+        galley_cost = -0.25
+    }
+    LAFI_mil_ideas_3 = {
+        morale_damage_received = -0.1
+    }
+    LAFI_mil_ideas_4 = {
+        recover_army_morale_speed = 0.15
+    }
+    LAFI_mil_ideas_5 = {
+        monarch_military_power = 1
+    }
+    LAFI_mil_ideas_6 = {
+        military_tactics = 0.2
+    }
+    LAFI_mil_ideas_7 = {
+        legitimacy = -1
+        republican_tradition = -0.3
+        devotion = -1
+        horde_unity = -1
+        meritocracy = -1
+    }
+
+    ai_will_do = { factor = 0 }
+}

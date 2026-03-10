@@ -1,0 +1,63 @@
+﻿l_english:
+
+# ideas
+ LAFI_adm_ideas: "LAFI行政理念"
+ LAFI_adm_ideas_bonus: "LAFI行政理念野心"
+ LAFI_adm_ideas_1: "狗头军师"
+ LAFI_adm_ideas_1_desc: "动物朋友们的智慧。"
+ LAFI_adm_ideas_2: "慕？"
+ LAFI_adm_ideas_2_desc: "不慕。"
+ LAFI_adm_ideas_3: "不玩安本"
+ LAFI_adm_ideas_3_desc: ""
+ LAFI_adm_ideas_4: "宗教实用主义"
+ LAFI_adm_ideas_4_desc: "“东正毛子是蛆。”\n“强大的是俄罗斯不是莫斯科。”"
+ LAFI_adm_ideas_5: "蛆狗二相性"
+ LAFI_adm_ideas_5_desc: "能蛆能狗，形态十分多变。"
+ LAFI_adm_ideas_6: "微概率的奇迹"
+ LAFI_adm_ideas_6_desc: "世界线跳跃中..."
+ LAFI_adm_ideas_7: "色は匂へど，散りぬるを"
+ LAFI_adm_ideas_7_desc: "eu4的时代终将落幕。"
+ LAFI_mil_ideas: "LAFI军事理念"
+ LAFI_mil_ideas_bonus: "LAFI军事理念野心"
+ LAFI_mil_ideas_1: "外籍军团"
+ LAFI_mil_ideas_1_desc: "动物朋友们来自五湖四海。"
+ LAFI_mil_ideas_2: "转进如风"
+ LAFI_mil_ideas_2_desc: "存在即是一切，一切为了存在。"
+ LAFI_mil_ideas_3: "极难战神"
+ LAFI_mil_ideas_3_desc: ""
+ LAFI_mil_ideas_4: "新三国军事理论"
+ LAFI_mil_ideas_4_desc: "胜兵必骄，骄兵必败，败兵必哀，哀兵必胜。"
+ LAFI_mil_ideas_5: "神·「无」复惘"
+ LAFI_mil_ideas_5_desc: ""
+ LAFI_mil_ideas_6: "pvp战术指导"
+ LAFI_mil_ideas_6_desc: ""
+ LAFI_mil_ideas_7: "LNC是否存在？"
+ LAFI_mil_ideas_7_desc: ""
+# ideas_ended
+
+# events
+ LAFI_flavor_events.1.tt: "极难战神？"
+ LAFI_flavor_events.1.desc: "这个游戏太简单了，需要加点难度吗？\n\n以下修正会与游戏难度设置叠加。\n\n§R注意，该事件仅触发一次，一经选择无法撤销。§！"
+ LAFI_flavor_events.1.a: "还是算了"
+ LAFI_flavor_events.1.b: "我将凯旋"
+ LAFI_flavor_events.1.b.tt: "ai将获得与极难难度等效的可触发修正。"
+ LAFI_flavor_events.1.c: "我觉得我也是ai"
+ LAFI_flavor_events.1.c.tt: "ai与玩家将获得与极难难度等效的可触发修正。"
+ LAFI_flavor_events.1.d: "我想这个游戏太难了..."
+ LAFI_flavor_events.1.d.tt: "玩家将获得与极难难度等效的可触发修正。"
+# events_ended
+
+#flags
+ LAFI_enable_very_hard_ai_triggered_modifier_global_flag: "启用额外的ai等效极难可触发修正"
+ LAFI_enable_very_hard_player_triggered_modifier_global_flag: "启用额外的玩家等效极难可触发修正"
+ LAFI_flavor_events_1_triggered_global_flag: "「极难战神」事件已触发"
+# flags_ended
+
+# modifiers
+ LAFI_very_hard_ai_triggered_modifier_1: "ai等效极难修正"
+ desc_LAFI_very_hard_ai_triggered_modifier_1: ""
+ LAFI_very_hard_player_triggered_modifier_2: "玩家等效极难修正"
+ desc_LAFI_very_hard_player_triggered_modifier_2: ""
+# modifiers_ended
+
+ LAFI_animal_friends_company: "§T动物朋友§!"

@@ -1,0 +1,41 @@
+namespace = LAFI_flavor_events
+country_event = {
+    id = LAFI_flavor_events.1
+    title = LAFI_flavor_events.1.tt
+    desc = LAFI_flavor_events.1.desc
+    picture = BANKRUPTCY_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        not =  { has_global_flag = LAFI_flavor_events_1_triggered_global_flag }
+    }
+
+    immediate = {
+        set_global_flag = LAFI_flavor_events_1_triggered_global_flag
+    }
+
+    option = {
+        name = "LAFI_flavor_events.1.a"
+        add_splendor = 10
+    }
+
+    option = {
+        name = "LAFI_flavor_events.1.b"
+        set_global_flag = LAFI_enable_very_hard_ai_triggered_modifier_global_flag
+        custom_tooltip = LAFI_flavor_events.1.b.tt
+    }
+
+    option = {
+        name = "LAFI_flavor_events.1.c"
+        set_global_flag = LAFI_enable_very_hard_ai_triggered_modifier_global_flag
+        set_global_flag = LAFI_enable_very_hard_player_triggered_modifier_global_flag
+        custom_tooltip = LAFI_flavor_events.1.c.tt
+    }
+
+    option = {
+        name = "LAFI_flavor_events.1.d"
+        set_global_flag = LAFI_enable_very_hard_player_triggered_modifier_global_flag
+        custom_tooltip = LAFI_flavor_events.1.d.tt
+    }
+}
