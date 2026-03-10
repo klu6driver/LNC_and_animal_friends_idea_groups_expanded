@@ -24,7 +24,7 @@
  LAFI_mil_ideas_2: "转进如风"
  LAFI_mil_ideas_2_desc: "存在即是一切，一切为了存在。"
  LAFI_mil_ideas_3: "极难战神"
- LAFI_mil_ideas_3_desc: ""
+ LAFI_mil_ideas_3_desc: "如果「极难战神？」事件尚未触发过，则触发该事件"
  LAFI_mil_ideas_4: "新三国军事理论"
  LAFI_mil_ideas_4_desc: "胜兵必骄，骄兵必败，败兵必哀，哀兵必胜。"
  LAFI_mil_ideas_5: "神·「无」复惘"
@@ -32,12 +32,12 @@
  LAFI_mil_ideas_6: "pvp战术指导"
  LAFI_mil_ideas_6_desc: ""
  LAFI_mil_ideas_7: "LNC是否存在？"
- LAFI_mil_ideas_7_desc: ""
+ LAFI_mil_ideas_7_desc: "你见过LNC吗？"
 # ideas_ended
 
 # events
  LAFI_flavor_events.1.tt: "极难战神？"
- LAFI_flavor_events.1.desc: "这个游戏太简单了，需要加点难度吗？\n\n以下修正会与游戏难度设置叠加。\n\n§R注意，该事件仅触发一次，一经选择无法撤销。§！"
+ LAFI_flavor_events.1.desc: "这个游戏太简单了，需要加点难度吗？\n\n以下修正会与游戏难度设置叠加。\n\n§R注意，该事件仅触发一次，一经选择无法撤销。§！\n\n§R可触发修正会造成一定的性能影响。§！"
  LAFI_flavor_events.1.a: "还是算了"
  LAFI_flavor_events.1.b: "我将凯旋"
  LAFI_flavor_events.1.b.tt: "ai将获得与极难难度等效的可触发修正。"
@@ -50,7 +50,7 @@
 #flags
  LAFI_enable_very_hard_ai_triggered_modifier_global_flag: "启用额外的ai等效极难可触发修正"
  LAFI_enable_very_hard_player_triggered_modifier_global_flag: "启用额外的玩家等效极难可触发修正"
- LAFI_flavor_events_1_triggered_global_flag: "「极难战神」事件已触发"
+ LAFI_flavor_events_1_triggered_global_flag: "「极难战神？」事件已触发"
 # flags_ended
 
 # modifiers
@@ -60,4 +60,7 @@
  desc_LAFI_very_hard_player_triggered_modifier_2: ""
 # modifiers_ended
 
+# merc
  LAFI_animal_friends_company: "§T动物朋友§!"
+
+#merc_ended

@@ -2,7 +2,7 @@ LAFI_very_hard_ai_triggered_modifier_1 = {
 	potential = {
 		has_global_flag = LAFI_enable_very_hard_ai_triggered_modifier_global_flag
 	}
-	# 不考虑附庸的附庸了
+	# 不考虑附庸的附庸
 	trigger = {
 		ai = yes
 		or = {

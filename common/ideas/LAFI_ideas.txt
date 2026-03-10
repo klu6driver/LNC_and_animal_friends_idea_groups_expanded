@@ -59,13 +59,33 @@ LAFI_mil_ideas = {
     }
     LAFI_mil_ideas_2 = {
         effect = {
+            # 狄奥多罗
+            2410 = {
+                if = {
+                    limit = { owned_by = ROOT }
+                    transport = PREV
+                    transport = PREV
+                    transport = PREV
+                }
+            }
             #省份改名，TODO
         }
         range = 1.0
         galley_cost = -0.25
     }
     LAFI_mil_ideas_3 = {
+        effect = {
+            if = {
+                limit = {
+                   not = { has_global_flag = LAFI_flavor_events_1_triggered_global_flag } 
+                }
+                country_event = {
+                    id = LAFI_flavor_events.1
+                }
+            }
+        }
         morale_damage_received = -0.1
+
     }
     LAFI_mil_ideas_4 = {
         recover_army_morale_speed = 0.15
