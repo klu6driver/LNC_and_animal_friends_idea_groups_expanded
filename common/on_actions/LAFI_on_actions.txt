@@ -1,23 +1,62 @@
 
+# THIS = Province, FROM = Country, ROOT = Merc Unit
 on_mercenary_recruited = {
-	if = {
-		limit = {
-			LAFI_is_free_merc_company = yes
-		}
-		if = {
-			limit = {
-				FROM = {
-					OR = {
-						has_country_flag = fifty_percent_merc_army_professionalism_cost 
-						has_country_modifier = pol_cheap_ap_mercs_modifier
-					}
-				}
-			}
-			FROM = { add_army_professionalism = 0.025 }
-		}
-		else = {
-			FROM = { add_army_professionalism = 0.05 }
-		}
-	}
+    if = {
+        limit = {
+            LAFI_is_free_merc_company = yes
+            FROM = { has_not_free_mercs_trait = yes }
+        }
+        if = {
+            limit = {
+                FROM = {
+                    OR = {
+                        has_country_flag = fifty_percent_merc_army_professionalism_cost
+                        has_country_modifier = pol_cheap_ap_mercs_modifier
+                    }
+                }
+            }
+            FROM = { add_army_professionalism = 0.025 }
+        }
+        else = {
+            FROM = { add_army_professionalism = 0.05 }
+        }
+    }
 }
 
+# root = loser country, from = winner country
+on_war_lost = {
+    if = {
+        limit = {
+            has_country_flag = LAFI_mil_ideas_4_japanese_primary_modifier
+        }
+        remove_country_flag = LAFI_mil_ideas_4_japanese_primary_modifier
+    }
+}
+
+# root = winning country, from = loser country
+on_battle_won_country = {
+    if = {
+        limit = {
+            has_idea = LAFI_mil_ideas_7
+        }
+        LAFI_add_or_extend_country_modifier_scripted_effect = {
+            target = root
+            modifier = LAFI_mil_ideas_7_LNC_ghost_form_modifier
+            days = 7
+        }
+    }
+}
+
+# root = loser country, from = winner country
+on_battle_lost_country = {
+    if = {
+        limit = {
+            has_idea = LAFI_mil_ideas_7
+        }
+        LAFI_add_or_extend_country_modifier_scripted_effect = {
+            target = root
+            modifier = LAFI_mil_ideas_7_LNC_ghost_form_modifier
+            days = 7
+        }
+    }
+}

@@ -77,7 +77,7 @@ LAFI_mil_ideas = {
         effect = {
             if = {
                 limit = {
-                   not = { has_global_flag = LAFI_flavor_events_1_triggered_global_flag } 
+                    not = { has_global_flag = LAFI_flavor_events_1_triggered_global_flag }
                 }
                 country_event = {
                     id = LAFI_flavor_events.1
@@ -88,6 +88,24 @@ LAFI_mil_ideas = {
 
     }
     LAFI_mil_ideas_4 = {
+        effect = {
+            if = {
+                limit = {
+                    or = {
+                        primary_culture = togoku
+                        primary_culture = japanese
+                        primary_culture = kyushuan
+                    }
+                    not = {
+                        has_country_modifier = LAFI_mil_ideas_4_japanese_primary_modifier
+                    }
+                }
+                add_country_modifier = {
+                    name = LAFI_mil_ideas_4_japanese_primary_modifier
+                    duration = -1
+                }
+            }
+        }
         recover_army_morale_speed = 0.15
     }
     LAFI_mil_ideas_5 = {

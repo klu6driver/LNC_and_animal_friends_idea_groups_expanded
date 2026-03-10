@@ -30,7 +30,7 @@
  LAFI_mil_ideas_5: "神·「无」复惘"
  LAFI_mil_ideas_5_desc: ""
  LAFI_mil_ideas_6: "pvp战术指导"
- LAFI_mil_ideas_6_desc: ""
+ LAFI_mil_ideas_6_desc: "“呵呵不如看我点化众鸡”"
  LAFI_mil_ideas_7: "LNC是否存在？"
  LAFI_mil_ideas_7_desc: "你见过LNC吗？"
 # ideas_ended
@@ -51,6 +51,9 @@
  LAFI_enable_very_hard_ai_triggered_modifier_global_flag: "启用额外的ai等效极难可触发修正"
  LAFI_enable_very_hard_player_triggered_modifier_global_flag: "启用额外的玩家等效极难可触发修正"
  LAFI_flavor_events_1_triggered_global_flag: "「极难战神？」事件已触发"
+ LAFI_open_decisions_list_flag: "已展开LNC与动物朋友们系列决议"
+ LAFI_recruited_Liewartine_flag: "已招募Liewartine"
+
 # flags_ended
 
 # modifiers
@@ -58,9 +61,24 @@
  desc_LAFI_very_hard_ai_triggered_modifier_1: ""
  LAFI_very_hard_player_triggered_modifier_2: "玩家等效极难修正"
  desc_LAFI_very_hard_player_triggered_modifier_2: ""
+
+
+ LAFI_mil_ideas_4_japanese_primary_modifier: "§R永遠ナル大和魂§！"
+ desc_LAFI_mil_ideas_4_japanese_primary_modifier: "§R敷島の大和心を人問はば\n朝日に匂ふ山桜花§！\n\n该修正会在任意战败后移除。"
+  #可以把理念叉掉再点一次
+ LAFI_mil_ideas_7_LNC_ghost_form_modifier: "§J虚体§！"
+ desc_LAFI_mil_ideas_7_LNC_ghost_form_modifier: ""
+
 # modifiers_ended
 
 # merc
  LAFI_animal_friends_company: "§T动物朋友§!"
-
+ LAFI_animal_friends_company_desc: "§J我冲死你。\n雇佣该佣兵团不会降低§Y陆军职业度§!。§!"
 #merc_ended
+
+#
+ LAFI_open_list_decision_0_a_title: "展开LNC与动物朋友们系列决议"
+ LAFI_open_list_decision_0_a_desc: ""
+ LAFI_open_list_decision_0_b_title: "收起LNC与动物朋友们系列决议"
+ LAFI_open_list_decision_0_b_desc: ""
+#

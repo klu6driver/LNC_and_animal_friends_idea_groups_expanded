@@ -1,0 +1,48 @@
+country_decisions = {
+    LAFI_open_list_decision_0_a = {
+        color = { 110 0 140 }
+        potential = {
+            not = { ai = yes }
+        }
+        allow = {
+            not = { ai = yes }
+        }
+        effect = {
+            set_country_flag = LAFI_open_decisions_list_flag
+        }
+    }
+
+    LAFI_open_list_decision_0_b = {
+        potential = {
+            not = { ai = yes }
+            has_country_flag = LAFI_open_decisions_list_flag
+        }
+        allow = {
+            not = { ai = yes }
+        }
+        clr_country_flag = LAFI_open_decisions_list_flag
+    }
+
+
+
+    LAFI_recruit_Liewartine_decision_1 = {
+        color = { 110 0 140 }
+        potential = {
+            not = { ai = yes }
+            has_country_flag = LAFI_open_decisions_list_flag
+            has_idea = LAFI_mil_ideas_4
+            not = {
+                has_country_flag = LAFI_recruited_Liewartine_flag
+            }
+
+        }
+        allow = {
+            has_idea = LAFI_mil_ideas_4
+
+        }
+        effect = {
+            LAFI_recruit_Liewartine_scripted_effects = yes
+            set_country_flag = LAFI_recruited_Liewartine_flag
+        }
+    }
+}

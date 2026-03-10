@@ -1,0 +1,21 @@
+
+# 对永久修正使用extend可能会出问题？
+LAFI_add_or_extend_country_modifier_scripted_effect = {
+    $target$ = {
+        if = {
+            limit = {
+                not = { has_country_modifier = $modifier$ }
+            }
+            add_country_modifier = {
+                name = $modifier$
+                duration = $days$
+            }
+        }
+        else = {
+            extend_country_modifier = {
+                name = $modifier$
+                duration = $days$
+            }
+        }
+    }
+}

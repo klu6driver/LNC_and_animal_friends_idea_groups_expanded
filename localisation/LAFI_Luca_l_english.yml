@@ -24,20 +24,20 @@
  LAFI_mil_ideas_2: "lÛ‚YÎ˜"
  LAFI_mil_ideas_2_desc: "XR(WsS=fNRÿNR:N†NXR(W0"
  LAFI_mil_ideas_3: "g¾–b^y"
- LAFI_mil_ideas_3_desc: ""
+ LAFI_mil_ideas_3_desc: "‚Yœg0g¾–b^yÿ0‹NöNS*gæ‰ÑSÇÿRæ‰ÑSå‹‹NöN"
  LAFI_mil_ideas_4: "°e	NýV›Q‹Ntº‹"
  LAFI_mil_ideas_4_desc: "ÜwuQÅV„šÿ„šuQÅV%ÿ%uQÅVÀTÿÀTuQÅVÜw0"
  LAFI_mil_ideas_5: "^y·0àe0YØ`"
  LAFI_mil_ideas_5_desc: ""
  LAFI_mil_ideas_6: "pvpb=gcüR"
- LAFI_mil_ideas_6_desc: ""
+ LAFI_mil_ideas_6_desc: "uTuTN‚Ywb¹pSO!ž"
  LAFI_mil_ideas_7: "LNC=f&TXR(Wÿ"
- LAFI_mil_ideas_7_desc: ""
+ LAFI_mil_ideas_7_desc: "`OÁ‰ÇLNCTÿ"
 # ideas_ended
 
 # events
  LAFI_flavor_events.1.tt: "g¾–b^yÿ"
- LAFI_flavor_events.1.desc: "Ù*N8nb*YŽrUS†Nÿ—‰ R¹p¾–¦^Tÿ\n\nåNNîOckON8nb¾–¦^¾‹nàS R0\n\n§Rèlaÿå‹‹NöNÅNæ‰ÑSN!kÿNÏu	ébàeÕl²d•0§ÿ"
+ LAFI_flavor_events.1.desc: "Ù*N8nb*YŽrUS†Nÿ—‰ R¹p¾–¦^Tÿ\n\nåNNîOckON8nb¾–¦^¾‹nàS R0\n\n§Rèlaÿå‹‹NöNÅNæ‰ÑSN!kÿNÏu	ébàeÕl²d•0§ÿ\n\n§RïSæ‰ÑSîOckO.bNšR„v'`ýwÿc8nbaS˜z¦^	ÿqVÍT0§ÿ"
  LAFI_flavor_events.1.a: "Ø=f—r†N"
  LAFI_flavor_events.1.b: "bSïQËe"
  LAFI_flavor_events.1.b.tt: "aiS·ƒ—VNg¾–¾–¦^IrHe„vïSæ‰ÑSîOck0"
@@ -50,7 +50,10 @@
 #flags
  LAFI_enable_very_hard_ai_triggered_modifier_global_flag: "=T(u˜Y„vaiIrHeg¾–ïSæ‰ÑSîOck"
  LAFI_enable_very_hard_player_triggered_modifier_global_flag: "=T(u˜Y„v©s¶RIrHeg¾–ïSæ‰ÑSîOck"
- LAFI_flavor_events_1_triggered_global_flag: "0g¾–b^y0‹NöNòTæ‰ÑS"
+ LAFI_flavor_events_1_triggered_global_flag: "0g¾–b^yÿ0‹NöNòTæ‰ÑS"
+ LAFI_open_decisions_list_flag: "òTUSVLNCN¨RirgËSìNû|R³Q®‹"
+ LAFI_recruited_Liewartine_flag: "òTÛbßRLiewartine"
+
 # flags_ended
 
 # modifiers
@@ -58,6 +61,22 @@
  desc_LAFI_very_hard_ai_triggered_modifier_1: ""
  LAFI_very_hard_player_triggered_modifier_2: "©s¶RIrHeg¾–îOck"
  desc_LAFI_very_hard_player_triggered_modifier_2: ""
+
+
+ LAFI_mil_ideas_4_japanese_primary_modifier: "§R8l`Ê0ë0'YŒTB›§ÿ"
+ desc_LAFI_mil_ideas_4_japanese_primary_modifier: "§RweöSn0'YŒTÃV’0ºNOUo0p0\ngåek0Su0qSjh±‚§ÿ\n\nå‹îOckO(WûNab%Tûyd–0"
+  #ïSåNŠbtõVÉS‰cQ¹pN!k
+
 # modifiers_ended
 
+# merc
  LAFI_animal_friends_company: "§T¨RirgËS§!"
+ LAFI_animal_friends_company_desc: "§Jb²Q‰k`O0\nÇ–cOå‹cOuQâVNOM–NO§YF–›QLwN¦^§!0§!"
+#merc_ended
+
+#
+ LAFI_open_list_decision_0_a_title: "USVLNCN¨RirgËSìNû|R³Q®‹"
+ LAFI_open_list_decision_0_a_desc: ""
+ LAFI_open_list_decision_0_b_title: "6ewLNCN¨RirgËSìNû|R³Q®‹"
+ LAFI_open_list_decision_0_b_desc: ""
+#

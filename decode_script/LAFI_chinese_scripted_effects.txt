@@ -1,0 +1,25 @@
+
+LAFI_recruit_Liewartine_scripted_effects = {
+    define_general = {
+        shock = 8
+        fire = 6
+        manuever = 4
+        siege = 5
+        name = <liewartine>
+    }
+}
+
+LAFI_recruit_WuFuWang_scripted_effects = {
+    define_ruler = {
+        name = "复惘"
+        dynasty = "「无」"
+        adm = 6
+        dip = 6
+        mil = 6
+        age = 18
+        claim = 100
+        culture = ROOT
+        religion = ROOT
+        male = yes
+    }
+}
