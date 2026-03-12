@@ -4,7 +4,7 @@
  LAFI_adm_ideas: "LAFI行政理念"
  LAFI_adm_ideas_bonus: "LAFI行政理念野心"
  LAFI_adm_ideas_1: "狗头军师"
- LAFI_adm_ideas_1_desc: "动物朋友们的智慧。"
+ LAFI_adm_ideas_1_desc: "智慧。"
  LAFI_adm_ideas_2: "慕？"
  LAFI_adm_ideas_2_desc: "不慕。"
  LAFI_adm_ideas_3: "不玩安本"
@@ -14,9 +14,11 @@
  LAFI_adm_ideas_5: "蛆狗二相性"
  LAFI_adm_ideas_5_desc: "能蛆能狗，形态十分多变。"
  LAFI_adm_ideas_6: "微概率的奇迹"
- LAFI_adm_ideas_6_desc: "世界线跳跃中..."
+ LAFI_adm_ideas_6_desc: "世界线跳跃中...\n读档时随机加1正统或0.3共和传统或其他等价物/1威望/5一种君主点数。"
  LAFI_adm_ideas_7: "色は匂へど，散りぬるを"
  LAFI_adm_ideas_7_desc: "eu4的时代终将落幕。"
+
+
  LAFI_mil_ideas: "LAFI军事理念"
  LAFI_mil_ideas_bonus: "LAFI军事理念野心"
  LAFI_mil_ideas_1: "外籍军团"
@@ -24,20 +26,23 @@
  LAFI_mil_ideas_2: "转进如风"
  LAFI_mil_ideas_2_desc: "存在即是一切，一切为了存在。"
  LAFI_mil_ideas_3: "极难战神"
- LAFI_mil_ideas_3_desc: "如果「极难战神？」事件尚未触发过，则触发该事件"
- LAFI_mil_ideas_4: "新三国军事理论"
- LAFI_mil_ideas_4_desc: "胜兵必骄，骄兵必败，败兵必哀，哀兵必胜。"
+ LAFI_mil_ideas_3_desc: "如果「极难战神？」事件尚未触发过，则触发该事件。"
+  #  LAFI_mil_ideas_4: "新三国军事理论" 没意思，换一个
+  #  LAFI_mil_ideas_4_desc: "胜兵必骄，骄兵必败，败兵必哀，哀兵必胜。"
+  # 再写个吃麦的事件
+ LAFI_mil_ideas_4: "文化底蕴"
+ LAFI_mil_ideas_4_desc: "“你不懂大和民族的文化底蕴。”\n启用决议招募将领Liewartine。"
  LAFI_mil_ideas_5: "神·「无」复惘"
- LAFI_mil_ideas_5_desc: ""
- LAFI_mil_ideas_6: "pvp战术指导"
- LAFI_mil_ideas_6_desc: "“呵呵不如看我点化众鸡”"
+ LAFI_mil_ideas_5_desc: "“这大概是「无」敌的寂寞吧。”\n启用决议招募君主「无」复惘。"
+ LAFI_mil_ideas_6: "战术指导"
+ LAFI_mil_ideas_6_desc: "“看我点化众鸡。”\n启用决议招募顾问小唐。"
  LAFI_mil_ideas_7: "LNC是否存在？"
- LAFI_mil_ideas_7_desc: "你见过LNC吗？"
+ LAFI_mil_ideas_7_desc: "你见过LNC吗？\n陆战结束时获得或延长国家修正§J「虚体」§!7天，获得以下效果：\n所受火力伤害§G-25%§!\n所受冲击伤害§G-25%§!\n\n"
 # ideas_ended
 
 # events
  LAFI_flavor_events.1.tt: "极难战神？"
- LAFI_flavor_events.1.desc: "这个游戏太简单了，需要加点难度吗？\n\n以下修正会与游戏难度设置叠加。\n\n§R注意，该事件仅触发一次，一经选择无法撤销。§！\n\n§R可触发修正会造成一定的性能影响。§！"
+ LAFI_flavor_events.1.desc: "这个游戏太简单了，需要加点难度吗？\n\n以下修正会与游戏难度设置叠加。\n\n§R注意，该事件仅触发一次，一经选择无法撤销。§!\n\n§R可触发修正会造成一定的性能影响。§!"
  LAFI_flavor_events.1.a: "还是算了"
  LAFI_flavor_events.1.b: "我将凯旋"
  LAFI_flavor_events.1.b.tt: "ai将获得与极难难度等效的可触发修正。"
@@ -45,6 +50,13 @@
  LAFI_flavor_events.1.c.tt: "ai与玩家将获得与极难难度等效的可触发修正。"
  LAFI_flavor_events.1.d: "我想这个游戏太难了..."
  LAFI_flavor_events.1.d.tt: "玩家将获得与极难难度等效的可触发修正。"
+ LAFI_flavor_events.2.tt: "「无」题"
+ LAFI_flavor_events.2.desc: "证明自己"
+ LAFI_flavor_events.2.a: "我本胶东布衣..."
+ LAFI_flavor_events.2.a.tt: "天下于我何加焉！"
+ LAFI_flavor_events.3.tt: ""
+ LAFI_flavor_events.3.desc: ""
+ LAFI_flavor_events.3.a: ""
 # events_ended
 
 #flags
@@ -53,7 +65,11 @@
  LAFI_flavor_events_1_triggered_global_flag: "「极难战神？」事件已触发"
  LAFI_open_decisions_list_flag: "已展开LNC与动物朋友们系列决议"
  LAFI_recruited_Liewartine_flag: "已招募Liewartine"
-
+ LAFI_recruited_WuFuWang_flag: "已招募牢无"
+ LAFI_WuFuWang_ruler_flag: "当前君主是「无」复惘"
+ LAFI_WuFuWang_personality_added_1_flag: ""
+ LAFI_WuFuWang_personality_added_2_flag: ""
+ LAFI_flavor_events_2_triggered_flag: "事件「无」题已触发"
 # flags_ended
 
 # modifiers
@@ -63,22 +79,39 @@
  desc_LAFI_very_hard_player_triggered_modifier_2: ""
 
 
- LAFI_mil_ideas_4_japanese_primary_modifier: "§R永遠ナル大和魂§！"
- desc_LAFI_mil_ideas_4_japanese_primary_modifier: "§R敷島の大和心を人問はば\n朝日に匂ふ山桜花§！\n\n该修正会在任意战败后移除。"
+ LAFI_mil_ideas_4_japanese_primary_modifier: "§R永遠ナル大和魂§!"
+ desc_LAFI_mil_ideas_4_japanese_primary_modifier: "§R敷島の大和心を人問はば\n朝日に匂ふ山桜花§!\n\n该修正会在任意战败后移除。"
   #可以把理念叉掉再点一次
- LAFI_mil_ideas_7_LNC_ghost_form_modifier: "§J虚体§！"
+ LAFI_mil_ideas_7_LNC_ghost_form_modifier: "§J虚体§!"
  desc_LAFI_mil_ideas_7_LNC_ghost_form_modifier: ""
-
+ LAFI_flavor_events_2_modifier: "「无」的遗产"
+ desc_LAFI_flavor_events_2_modifier: ""
 # modifiers_ended
 
 # merc
  LAFI_animal_friends_company: "§T动物朋友§!"
- LAFI_animal_friends_company_desc: "§J我冲死你。\n雇佣该佣兵团不会降低§Y陆军职业度§!。§!"
-#merc_ended
+ LAFI_animal_friends_company_desc: "我冲死你。\n§J雇佣该佣兵团不会降低§Y陆军职业度§!。§!"
+# merc_ended
 
-#
- LAFI_open_list_decision_0_a_title: "展开LNC与动物朋友们系列决议"
+# decisions
+ LAFI_open_list_decision_0_a_title: "展开LNC与动物朋友们mod系列决议"
  LAFI_open_list_decision_0_a_desc: ""
- LAFI_open_list_decision_0_b_title: "收起LNC与动物朋友们系列决议"
+ LAFI_open_list_decision_0_b_title: "收起LNC与动物朋友们mod系列决议"
  LAFI_open_list_decision_0_b_desc: ""
-#
+ LAFI_recruit_Liewartine_decision_1_title: "招募牢头"
+ LAFI_recruit_Liewartine_decision_1_desc: ""
+ LAFI_recruit_Liewartine_decision_1_tt: "牢头领军作战失利时，位于战斗发生省份的友方部队将全部自刎归天。"
+ LAFI_recruit_WuFuWang_decision_2_title: "请「无」神出山"
+ LAFI_recruit_WuFuWang_decision_2_desc: ""
+ LAFI_recruit_WuFuWang_decision_2_tt: "战争失败（单独媾和不计入）时，所有国家对我国失去20AE，「无」复惘失去三种君主能力£adm££dip££mil£各一点。在君主能力为0£adm£0£dip£0£mil£时，降低AE的效果不会触发。\n作为战争盟主胜利次数达到10/25次且君主能力至少为3£adm£3£dip£3£mil£且有空余特质槽时，获得传奇征服者/加冕铁网冠君主特质。"
+# decisions_ended
+
+# var
+ lafi_wufuwang_war_won_count_var: "「无」复惘作为君主战争胜利计数"
+# var_ended
+
+# adviser
+ LAFI_XiaoTang_commandant_advisor: "教官"
+ LAFI_XiaoTang_commandant_advisor_desc: ""
+
+# adviser_ended

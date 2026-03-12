@@ -3,6 +3,7 @@ country_decisions = {
         color = { 110 0 140 }
         potential = {
             not = { ai = yes }
+            not = { has_country_flag = LAFI_open_decisions_list_flag }
         }
         allow = {
             not = { ai = yes }
@@ -13,6 +14,7 @@ country_decisions = {
     }
 
     LAFI_open_list_decision_0_b = {
+        color = { 110 0 140 }
         potential = {
             not = { ai = yes }
             has_country_flag = LAFI_open_decisions_list_flag
@@ -20,7 +22,9 @@ country_decisions = {
         allow = {
             not = { ai = yes }
         }
-        clr_country_flag = LAFI_open_decisions_list_flag
+        effect = {
+            clr_country_flag = LAFI_open_decisions_list_flag
+        }
     }
 
 
@@ -43,6 +47,40 @@ country_decisions = {
         effect = {
             LAFI_recruit_Liewartine_scripted_effects = yes
             set_country_flag = LAFI_recruited_Liewartine_flag
+            custom_tooltip = LAFI_recruit_Liewartine_decision_1_tt
+        }
+    }
+
+    LAFI_recruit_WuFuWang_decision_2 = {
+        color = { 110 0 140 }
+        potential = {
+            not = { ai = yes }
+            has_country_flag = LAFI_open_decisions_list_flag
+            has_idea = LAFI_mil_ideas_5
+            not = {
+                has_country_flag = LAFI_recruited_WuFuWang_flag
+            }
+
+        }
+        allow = {
+            has_idea = LAFI_mil_ideas_5
+
+        }
+        effect = {
+            LAFI_recruit_WuFuWang_scripted_effects = yes
+            set_country_flag = LAFI_recruited_WuFuWang_flag
+            set_ruler_flag = LAFI_WuFuWang_ruler_flag
+            set_variable = {
+                which = lafi_wufuwang_war_won_count_var
+                value = 0
+            }
+            if = {
+                limit = {
+                    ironman = yes
+                }
+                country_event = { id = LAFI_flavor_events.3 }
+            }
+            custom_tooltip = LAFI_recruit_WuFuWang_decision_2_tt
         }
     }
 }

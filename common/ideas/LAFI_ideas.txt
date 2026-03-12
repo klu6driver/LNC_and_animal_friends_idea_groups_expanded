@@ -71,7 +71,7 @@ LAFI_mil_ideas = {
             #省份改名，TODO
         }
         range = 1.0
-        galley_cost = -0.25
+        galley_cost = -0.33
     }
     LAFI_mil_ideas_3 = {
         effect = {
@@ -84,7 +84,7 @@ LAFI_mil_ideas = {
                 }
             }
         }
-        morale_damage_received = -0.1
+        morale_damage_received = -0.25
 
     }
     LAFI_mil_ideas_4 = {
@@ -106,7 +106,7 @@ LAFI_mil_ideas = {
                 }
             }
         }
-        recover_army_morale_speed = 0.15
+        infantry_power = 0.1
     }
     LAFI_mil_ideas_5 = {
         monarch_military_power = 1

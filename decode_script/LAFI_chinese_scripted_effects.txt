@@ -1,14 +1,5 @@
 
-LAFI_recruit_Liewartine_scripted_effects = {
-    define_general = {
-        shock = 8
-        fire = 6
-        manuever = 4
-        siege = 5
-        name = <liewartine>
-    }
-}
-
+# 无
 LAFI_recruit_WuFuWang_scripted_effects = {
     define_ruler = {
         name = "复惘"
@@ -20,6 +11,19 @@ LAFI_recruit_WuFuWang_scripted_effects = {
         claim = 100
         culture = ROOT
         religion = ROOT
+        male = yes
+    }
+}
+
+# 小唐
+LAFI_recruit_XiaoTang_scripted_effects = {
+    define_advisor = {
+        type = commandant
+        name = "小唐"
+        skill = 3
+        culture = ROOT
+        religion = ROOT
+        cost_multiplier = 0.5
         male = yes
     }
 }

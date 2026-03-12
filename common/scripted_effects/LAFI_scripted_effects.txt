@@ -1,5 +1,18 @@
 
+#characters
+# Liewartine 牢头
+LAFI_recruit_Liewartine_scripted_effects = {
+    define_general = {
+        shock = 8
+        fire = 6
+        manuever = 4
+        siege = 5
+        name = "Liewartine"
+    }
+}
+
 # 对永久修正使用extend可能会出问题？
+# 呃，extend后看不到持续到什么时候了
 LAFI_add_or_extend_country_modifier_scripted_effect = {
     $target$ = {
         if = {

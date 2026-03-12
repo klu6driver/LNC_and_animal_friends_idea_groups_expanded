@@ -4,7 +4,7 @@
  LAFI_adm_ideas: "LAFILˆ?etõV"
  LAFI_adm_ideas_bonus: "LAFILˆ?etõVÎ‘ÃV"
  LAFI_adm_ideas_1: "×r4Y›Q^"
- LAFI_adm_ideas_1_desc: "¨RirgËSìN„vzfga0"
+ LAFI_adm_ideas_1_desc: "zfga0"
  LAFI_adm_ideas_2: "Uaÿ"
  LAFI_adm_ideas_2_desc: "NUa0"
  LAFI_adm_ideas_3: "N©s‰R,g"
@@ -17,6 +17,8 @@
  LAFI_adm_ideas_6_desc: "NLu¿uóÃ-N..."
  LAFI_adm_ideas_7: "r‚o0Sx0i0ÿceŠ0l0‹0’0"
  LAFI_adm_ideas_7_desc: "eu4„vöeãNÈuSK„U^0"
+
+
  LAFI_mil_ideas: "LAFI›Q‹NtõV"
  LAFI_mil_ideas_bonus: "LAFI›Q‹NtõVÎ‘ÃV"
  LAFI_mil_ideas_1: "YM|›QâV"
@@ -25,19 +27,21 @@
  LAFI_mil_ideas_2_desc: "XR(WsS=fNRÿNR:N†NXR(W0"
  LAFI_mil_ideas_3: "g¾–b^y"
  LAFI_mil_ideas_3_desc: "‚Yœg0g¾–b^yÿ0‹NöNS*gæ‰ÑSÇÿRæ‰ÑSå‹‹NöN"
- LAFI_mil_ideas_4: "°e	NýV›Q‹Ntº‹"
- LAFI_mil_ideas_4_desc: "ÜwuQÅV„šÿ„šuQÅV%ÿ%uQÅVÀTÿÀTuQÅVÜw0"
+#  LAFI_mil_ideas_4: "°e	NýV›Q‹Ntº‹" ¡la`ÿbcN*N
+#  LAFI_mil_ideas_4_desc: "ÜwuQÅV„šÿ„šuQÅV%ÿ%uQÅVÀTÿÀTuQÅVÜw0"
+ LAFI_mil_ideas_4: "‡eS•^t…"
+ LAFI_mil_ideas_4_desc: "`ONÂa'YŒTlÏe„v‡eS•^t…0"
  LAFI_mil_ideas_5: "^y·0àe0YØ`"
- LAFI_mil_ideas_5_desc: ""
- LAFI_mil_ideas_6: "pvpb=gcüR"
- LAFI_mil_ideas_6_desc: "uTuTN‚Ywb¹pSO!ž"
+ LAFI_mil_ideas_5_desc: "Ù'Y‚i=f0àe0Le„vÂRÞR'T0"
+ LAFI_mil_ideas_6: "b=gcüR"
+ LAFI_mil_ideas_6_desc: "uTuTN‚Ywb¹pSO!ž0"
  LAFI_mil_ideas_7: "LNC=f&TXR(Wÿ"
- LAFI_mil_ideas_7_desc: "`OÁ‰ÇLNCTÿ"
+ LAFI_mil_ideas_7_desc: "`OÁ‰ÇLNCTÿ\nF–bÓumgöe·ƒ—Vbö^•ýV¶RîOck§J0Z†SO0§!7)Yÿ·ƒ—VåNNHeœgÿ\nNb×Skp›R2O³R§G-25%§!\nNb×S²QûQ2O³R§G-25%§!"
 # ideas_ended
 
 # events
  LAFI_flavor_events.1.tt: "g¾–b^yÿ"
- LAFI_flavor_events.1.desc: "Ù*N8nb*YŽrUS†Nÿ—‰ R¹p¾–¦^Tÿ\n\nåNNîOckON8nb¾–¦^¾‹nàS R0\n\n§Rèlaÿå‹‹NöNÅNæ‰ÑSN!kÿNÏu	ébàeÕl²d•0§ÿ\n\n§RïSæ‰ÑSîOckO.bNšR„v'`ýwÿc8nbaS˜z¦^	ÿqVÍT0§ÿ"
+ LAFI_flavor_events.1.desc: "Ù*N8nb*YŽrUS†Nÿ—‰ R¹p¾–¦^Tÿ\n\nåNNîOckON8nb¾–¦^¾‹nàS R0\n\n§Rèlaÿå‹‹NöNÅNæ‰ÑSN!kÿNÏu	ébàeÕl²d•0§!\n\n§RïSæ‰ÑSîOckO.bNšR„v'`ýwqVÍT0§!"
  LAFI_flavor_events.1.a: "Ø=f—r†N"
  LAFI_flavor_events.1.b: "bSïQËe"
  LAFI_flavor_events.1.b.tt: "aiS·ƒ—VNg¾–¾–¦^IrHe„vïSæ‰ÑSîOck0"
@@ -53,7 +57,7 @@
  LAFI_flavor_events_1_triggered_global_flag: "0g¾–b^yÿ0‹NöNòTæ‰ÑS"
  LAFI_open_decisions_list_flag: "òTUSVLNCN¨RirgËSìNû|R³Q®‹"
  LAFI_recruited_Liewartine_flag: "òTÛbßRLiewartine"
-
+ LAFI_recruited_WuFuWang_flag: "òTÛbßRbràe"
 # flags_ended
 
 # modifiers
@@ -63,20 +67,28 @@
  desc_LAFI_very_hard_player_triggered_modifier_2: ""
 
 
- LAFI_mil_ideas_4_japanese_primary_modifier: "§R8l`Ê0ë0'YŒTB›§ÿ"
- desc_LAFI_mil_ideas_4_japanese_primary_modifier: "§RweöSn0'YŒTÃV’0ºNOUo0p0\ngåek0Su0qSjh±‚§ÿ\n\nå‹îOckO(WûNab%Tûyd–0"
+ LAFI_mil_ideas_4_japanese_primary_modifier: "§R8l`Ê0ë0'YŒTB›§!"
+ desc_LAFI_mil_ideas_4_japanese_primary_modifier: "§RweöSn0'YŒTÃV’0ºNOUo0p0\ngåek0Su0qSjh±‚§!\n\nå‹îOckO(WûNab%Tûyd–0"
   #ïSåNŠbtõVÉS‰cQ¹pN!k
+ LAFI_mil_ideas_7_LNC_ghost_form_modifier: "§JZ†SO§!"
+ desc_LAFI_mil_ideas_7_LNC_ghost_form_modifier: ""
 
 # modifiers_ended
 
 # merc
  LAFI_animal_friends_company: "§T¨RirgËS§!"
  LAFI_animal_friends_company_desc: "§Jb²Q‰k`O0\nÇ–cOå‹cOuQâVNOM–NO§YF–›QLwN¦^§!0§!"
-#merc_ended
+# merc_ended
 
-#
- LAFI_open_list_decision_0_a_title: "USVLNCN¨RirgËSìNû|R³Q®‹"
+# decisions
+ LAFI_open_list_decision_0_a_title: "USVLNCN¨RirgËSìNmodû|R³Q®‹"
  LAFI_open_list_decision_0_a_desc: ""
- LAFI_open_list_decision_0_b_title: "6ewLNCN¨RirgËSìNû|R³Q®‹"
+ LAFI_open_list_decision_0_b_title: "6ewLNCN¨RirgËSìNmodû|R³Q®‹"
  LAFI_open_list_decision_0_b_desc: ""
-#
+ LAFI_recruit_Liewartine_decision_1_title: "ÛbßRbr4Y"
+ LAFI_recruit_Liewartine_decision_1_desc: ""
+ LAFI_recruit_Liewartine_decision_1_tt: "br4Y†˜›QjOb1Y)RöeÿMOŽNb—eÑSuwýN„vËS¹eè–ShQèêRRV)Y0"
+ LAFI_recruit_WuFuWang_decision_2_title: "÷‹0àe0^yúQqS"
+ LAFI_recruit_WuFuWang_decision_2_desc: ""
+ LAFI_recruit_WuFuWang_decision_2_tt: "b‰N1Y%ÿUSìr¾ZŒTN¡‹eQ	ÿöeÿNb	gýV¶RùRbýV1Y»S50AEÿ0àe0YØ`1Y»S	NÍyTINýw›R£adm££dip££mil£TN¹p0"
+# decisions_ended

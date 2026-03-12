@@ -5,7 +5,14 @@ LAFI_mil_ideas_4_japanese_primary_modifier = {
     infantry_power = 0.1
 }
 
+# LNC_幽魂形态
 LAFI_mil_ideas_7_LNC_ghost_form_modifier = {
     fire_damage_received = -0.25
     shock_damage_received = -0.25
+}
+
+#无的遗产
+LAFI_flavor_events_2_modifier = {
+    ae_impact = -0.1
+    all_power_cost = -0.1
 }

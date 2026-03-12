@@ -1,0 +1,79 @@
+
+# 小唐
+LAFI_XiaoTang_commandant_advisor = {
+    allow_only_male = yes
+    monarch_power = MIL
+
+    # Bonus
+    discipline = 0.075
+
+    skill_scaled_modifier = {
+        trigger = {
+            owner = {
+                has_government_mechanic = russian_modernization_mechanic
+                NOT = { culture_group = PREV }
+            }
+        }
+        modifier = {
+            monthly_russian_modernization = 0.02
+        }
+    }
+
+    skill_scaled_modifier = {
+        trigger = {
+            owner = {
+                has_government_attribute = advisors_generate_innovativeness
+            }
+        }
+        modifier = {
+            yearly_innovativeness = 0.02
+        }
+    }
+
+    skill_scaled_modifier = {
+        trigger = {
+            owner = {
+                has_country_flag = ven_offensive_reward_flag
+            }
+        }
+        modifier = {
+            siege_ability = 0.03
+        }
+    }
+
+    skill_scaled_modifier = {
+        trigger = {
+            owner = {
+                has_government_attribute = republican_tradition_from_advisors
+            }
+        }
+        modifier = {
+            meritocracy = 0.25
+            republican_tradition = 0.02
+        }
+    }
+    skill_scaled_modifier = {
+        trigger = {
+            owner = {
+                is_emperor_of_china = yes
+            }
+        }
+        modifier = { meritocracy = 0.25 }
+    }
+    skill_scaled_modifier = {
+        trigger = {
+            owner = {
+                has_country_flag = hsn_has_scaling_advisors
+            }
+        }
+        modifier = { army_tradition_decay = -0.003 }
+    }
+
+    chance = {
+        factor = 0
+    }
+
+    ai_will_do = {
+        factor = 1.8
+    }
+}

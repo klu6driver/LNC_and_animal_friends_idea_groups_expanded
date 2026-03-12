@@ -39,3 +39,39 @@ country_event = {
         custom_tooltip = LAFI_flavor_events.1.d.tt
     }
 }
+
+country_event = {
+    id = LAFI_flavor_events.2
+    title = LAFI_flavor_events.2.tt
+    desc = LAFI_flavor_events.2.desc
+    picture = BANKRUPTCY_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        not =  { has_country_flag = LAFI_flavor_events_2_triggered_flag }
+    }
+
+    option = {
+        name = "LAFI_flavor_events.2.a"
+        set_country_flag = LAFI_flavor_events_2_triggered_flag
+        add_country_modifier =  LAFI_flavor_events_2_modifier
+    }
+}
+
+country_event = {
+    id = LAFI_flavor_events.3
+    title = LAFI_flavor_events.3.tt
+    desc = LAFI_flavor_events.3.desc
+    picture = BANKRUPTCY_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        not =  { has_country_flag = LAFI_flavor_events_3_triggered_flag }
+    }
+
+    option = {
+        name = "LAFI_flavor_events.3.a"
+    }
+}
