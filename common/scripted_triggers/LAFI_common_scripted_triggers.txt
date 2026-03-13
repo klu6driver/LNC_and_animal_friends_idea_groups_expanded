@@ -8,3 +8,22 @@ LAFI_is_free_merc_company = {
 		}
 	}
 }
+
+# 用于冷却型决议
+LAFI_cd_type_decision_scripted_trigger = {
+	OR = {
+		NOT = { has_country_flag = $flag$ }
+		had_country_flag = {
+			flag = $flag$
+			days = $days$
+		}
+	}
+}
+
+LAFI_province_can_exploit_tax_scripted_trigger = {
+	is_city = yes
+	controlled_by = ROOT
+	has_siege = no
+	is_core = ROOT
+	base_tax = 2
+}

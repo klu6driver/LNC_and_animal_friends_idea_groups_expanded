@@ -51,6 +51,31 @@ country_decisions = {
         }
     }
 
+    #吃麦
+    LAFI_recruit_Liewartine_decision_1_a = {
+        color = { 110 0 140 }
+        potential = {
+            not = { ai = yes }
+            has_country_flag = LAFI_open_decisions_list_flag
+            has_country_flag = LAFI_recruited_Liewartine_flag
+            has_leader = "Liewartine"
+        }
+        allow = {
+            has_leader = "Liewartine"
+            LAFI_cd_type_decision_scripted_trigger = {
+                flag = LAFI_recruit_Liewartine_decision_1_a_cd_flag
+                days = 365
+            }
+        }
+        effect = {
+            set_country_flag = LAFI_recruit_Liewartine_decision_1_a_decided_flag
+            clr_country_flag = LAFI_recruit_Liewartine_decision_1_a_cd_flag
+            set_country_flag = LAFI_recruit_Liewartine_decision_1_a_cd_flag
+            custom_tooltip = LAFI_recruit_Liewartine_decision_1_a_tt
+
+        }
+    }
+
     LAFI_recruit_WuFuWang_decision_2 = {
         color = { 110 0 140 }
         potential = {
@@ -74,6 +99,9 @@ country_decisions = {
                 which = lafi_wufuwang_war_won_count_var
                 value = 0
             }
+            hidden_effect = {
+                add_ruler_personality = LAFI_WuFuWang_personality
+            }
             if = {
                 limit = {
                     ironman = yes
@@ -83,4 +111,55 @@ country_decisions = {
             custom_tooltip = LAFI_recruit_WuFuWang_decision_2_tt
         }
     }
+
+    LAFI_recruit_XiaoTang_decision_3 = {
+        color = { 110 0 140 }
+        potential = {
+            not = { ai = yes }
+            has_country_flag = LAFI_open_decisions_list_flag
+            has_idea = LAFI_mil_ideas_6
+            not = {
+                has_country_flag = LAFI_recruited_XiaoTang_flag
+            }
+
+        }
+        allow = {
+            has_idea = LAFI_mil_ideas_6
+
+        }
+        effect = {
+            LAFI_recruit_XiaoTang_scripted_effects = yes
+            set_country_flag = LAFI_recruited_XiaoTang_flag
+            set_country_flag = LAFI_enable_recruit_XiaoTang_decision_3_a_flag
+        }
+    }
+
+    LAFI_recruit_XiaoTang_decision_3_a = {
+        color = { 110 0 140 }
+        potential = {
+            not = { ai = yes }
+            has_country_flag = LAFI_open_decisions_list_flag
+            has_country_flag = LAFI_enable_recruit_XiaoTang_decision_3_a_flag
+            has_idea = LAFI_mil_ideas_6
+            not = {
+                has_country_modifier = LAFI_two_shock_advisor_modifier
+            }
+
+        }
+        allow = {
+            has_idea = LAFI_mil_ideas_6
+            advisor = LAFI_XiaoTang_commandant_advisor
+            mil_power = 100
+        }
+        effect = {
+            add_mil_power = -100
+            add_country_modifier = {
+                name = LAFI_two_shock_advisor_modifier
+                duration = -1
+            }
+            custom_tooltip = LAFI_recruit_XiaoTang_decision_3_a_tt
+            clr_country_flag = LAFI_enable_recruit_XiaoTang_decision_3_a_flag
+        }
+    }
+
 }

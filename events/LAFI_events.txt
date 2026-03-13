@@ -55,7 +55,11 @@ country_event = {
     option = {
         name = "LAFI_flavor_events.2.a"
         set_country_flag = LAFI_flavor_events_2_triggered_flag
-        add_country_modifier =  LAFI_flavor_events_2_modifier
+        add_country_modifier = {
+            name = LAFI_flavor_events_2_modifier
+            duration = -1
+        }
+        custom_tooltip = LAFI_flavor_events.2.a.tt
     }
 }
 
@@ -73,5 +77,61 @@ country_event = {
 
     option = {
         name = "LAFI_flavor_events.3.a"
+    }
+}
+
+country_event = {
+    id = LAFI_flavor_events.4
+    title = LAFI_flavor_events.4.tt
+    desc = LAFI_flavor_events.4.desc
+    picture = BANKRUPTCY_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        not =  { has_country_flag = LAFI_flavor_events_4_triggered_flag }
+    }
+
+    option = {
+        name = "LAFI_flavor_events.4.a"
+        LAFI_recruit_Luca_scripted_effects = yes
+        set_country_flag = LAFI_flavor_events_4_triggered_flag
+    }
+    option = {
+        name = "LAFI_flavor_events.4.b"
+        set_country_flag = LAFI_flavor_events_4_triggered_flag
+    }
+}
+
+country_event = {
+    id = LAFI_flavor_events.5
+    title = LAFI_flavor_events.5.tt
+    desc = LAFI_flavor_events.5.desc
+    picture = BANKRUPTCY_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        not =  { has_country_flag = LAFI_flavor_events_5_triggered_flag }
+    }
+
+    option = {
+        name = "LAFI_flavor_events.5.a"
+        set_country_flag = LAFI_flavor_events_5_triggered_flag
+    }
+    option = {
+        name = "LAFI_flavor_events.5.b"
+        trigger = {
+            any_country = {
+                has_estate = estate_mages
+                has_estate = estate_adventurers
+            }
+        }
+        add_country_modifier = {
+            name = LAFI_play_anb_modifier
+            duration = -1
+        }
+        LAFI_recruit_Luca_scripted_effects = yes
+        set_country_flag = LAFI_flavor_events_5_triggered_flag
     }
 }

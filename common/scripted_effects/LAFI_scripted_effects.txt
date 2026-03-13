@@ -6,8 +6,21 @@ LAFI_recruit_Liewartine_scripted_effects = {
         shock = 8
         fire = 6
         manuever = 4
-        siege = 5
+        siege = 4
         name = "Liewartine"
+    }
+}
+
+#
+LAFI_recruit_Luca_scripted_effects = {
+    define_advisor = {
+        type = LAFI_Zhurou_Luca_advisor
+        name = "Luca"
+        skill = 2
+        culture = ROOT
+        religion = ROOT
+        cost_multiplier = 0.5
+        male = yes
     }
 }
 
@@ -31,4 +44,102 @@ LAFI_add_or_extend_country_modifier_scripted_effect = {
             }
         }
     }
+}
+
+# 烧税,对单一省份
+LAFI_exploit_all_tax_scripted_effect = {
+	set_variable = {
+		which = provinceTreasury
+		value = 100
+	}
+	#导出基础税收，作为n
+	export_to_variable = {
+		which = baseTax
+		value = base_tax
+		who = THIS
+	}
+#总基础税收,初始为n
+set_variable = {
+		which = totalbaseTax
+		which = baseTax
+}
+#n+2
+	change_variable = {
+		which = totalbaseTax
+		value = 2
+	}
+#n-1
+	subtract_variable = {
+		which = baseTax
+		value = 1
+	}
+#(n-1)(n+2)
+	multiply_variable = {
+		which = totalbaseTax
+		which = baseTax
+	}
+#得到总基础税收(n-1)(n+2)/2
+	divide_variable = {
+		which = totalbaseTax
+		value = 2
+	}
+	#导出自治度
+	export_to_variable = {
+		which = localAutonomy
+		value = local_autonomy
+		who = THIS
+	}
+	subtract_variable = {
+		which = provinceTreasury
+		which = localAutonomy
+	}
+	multiply_variable = {
+		which = provinceTreasury
+		which = totalbaseTax
+	}
+	# 自治度除以100，烧税给5年收入，折算是除以20
+	divide_variable = {
+		which = provinceTreasury
+		value = 20
+	}
+	# 本地税收效率
+	export_to_variable = {
+		which = localTaxEfficiency
+		value = modifier:local_tax_modifier
+		who = THIS
+	}
+	# 全局税收效率
+	export_to_variable = {
+		which = globalTaxEfficiency
+		value = modifier:global_tax_modifier
+		who = ROOT
+	}
+	set_variable = {
+		which = totalTaxEfficiency
+		which = localTaxEfficiency
+	}
+	change_variable = {
+		which = totalTaxEfficiency
+		which = globalTaxEfficiency
+	}
+	# 基础税收*税收效率
+	multiply_variable = {
+		which = provinceTreasury
+		which = totalTaxEfficiency
+	}
+	while = {
+		limit = {
+			check_variable = { 
+				which = provinceTreasury
+				value = 0.1
+			}
+		}
+		subtract_variable = { 
+			which = provinceTreasury 
+			value = 0.1 
+		}
+		owner = {
+			add_treasury = 0.1
+		}
+	}
 }

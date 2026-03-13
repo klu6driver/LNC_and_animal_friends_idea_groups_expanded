@@ -1,5 +1,7 @@
 ﻿l_english:
 
+#其实吧，做成理念有点占用理念槽了，也许可以点完理念移除自身然后添加一个等效修正
+
 # ideas
  LAFI_adm_ideas: "LAFI行政理念"
  LAFI_adm_ideas_bonus: "LAFI行政理念野心"
@@ -10,13 +12,14 @@
  LAFI_adm_ideas_3: "不玩安本"
  LAFI_adm_ideas_3_desc: ""
  LAFI_adm_ideas_4: "宗教实用主义"
- LAFI_adm_ideas_4_desc: "“东正毛子是蛆。”\n“强大的是俄罗斯不是莫斯科。”"
+ LAFI_adm_ideas_4_desc: "“东正毛子是蛆。”\n“强大的是俄罗斯不是莫斯科。”\n在转换宗教时，获得50威望。"
  LAFI_adm_ideas_5: "蛆狗二相性"
+  # todo 形态变化不知道写什么
  LAFI_adm_ideas_5_desc: "能蛆能狗，形态十分多变。"
  LAFI_adm_ideas_6: "微概率的奇迹"
- LAFI_adm_ideas_6_desc: "世界线跳跃中...\n读档时随机加1正统或0.3共和传统或其他等价物/1威望/5一种君主点数。"
+ LAFI_adm_ideas_6_desc: "世界线跳跃中...\n读档时随机获得1正统或0.3共和传统或其他等价物/1威望/5君主点数。"
  LAFI_adm_ideas_7: "色は匂へど，散りぬるを"
- LAFI_adm_ideas_7_desc: "eu4的时代终将落幕。"
+ LAFI_adm_ideas_7_desc: "eu4的时代终将落幕。\n\n注:本意是发帝国主义等效CB，但是暂时还没看CB怎么写,所以先用圣战凑合。\n\n"
 
 
  LAFI_mil_ideas: "LAFI军事理念"
@@ -29,9 +32,9 @@
  LAFI_mil_ideas_3_desc: "如果「极难战神？」事件尚未触发过，则触发该事件。"
   #  LAFI_mil_ideas_4: "新三国军事理论" 没意思，换一个
   #  LAFI_mil_ideas_4_desc: "胜兵必骄，骄兵必败，败兵必哀，哀兵必胜。"
-  # 再写个吃麦的事件
  LAFI_mil_ideas_4: "文化底蕴"
- LAFI_mil_ideas_4_desc: "“你不懂大和民族的文化底蕴。”\n启用决议招募将领Liewartine。"
+ LAFI_mil_ideas_4_desc: "“你不懂大和民族的文化底蕴。”\n如果主流文化属于日本文化组，额外获得修正§R永遠ナル大和魂§!持续到游戏结束。\n启用决议招募将领Liewartine。"
+  # todo 铁人1000全点数花费
  LAFI_mil_ideas_5: "神·「无」复惘"
  LAFI_mil_ideas_5_desc: "“这大概是「无」敌的寂寞吧。”\n启用决议招募君主「无」复惘。"
  LAFI_mil_ideas_6: "战术指导"
@@ -42,7 +45,7 @@
 
 # events
  LAFI_flavor_events.1.tt: "极难战神？"
- LAFI_flavor_events.1.desc: "这个游戏太简单了，需要加点难度吗？\n\n以下修正会与游戏难度设置叠加。\n\n§R注意，该事件仅触发一次，一经选择无法撤销。§!\n\n§R可触发修正会造成一定的性能影响。§!"
+ LAFI_flavor_events.1.desc: "这个游戏太简单了，需要加点难度吗？\n\n以下修正会与游戏难度设置叠加。\n\n可触发修正会造成一定的性能影响。\n\n§R注意，该事件仅触发一次，一经选择无法撤销。§!"
  LAFI_flavor_events.1.a: "还是算了"
  LAFI_flavor_events.1.b: "我将凯旋"
  LAFI_flavor_events.1.b.tt: "ai将获得与极难难度等效的可触发修正。"
@@ -50,13 +53,21 @@
  LAFI_flavor_events.1.c.tt: "ai与玩家将获得与极难难度等效的可触发修正。"
  LAFI_flavor_events.1.d: "我想这个游戏太难了..."
  LAFI_flavor_events.1.d.tt: "玩家将获得与极难难度等效的可触发修正。"
- LAFI_flavor_events.2.tt: "「无」题"
+ LAFI_flavor_events.2.tt: "无题"
  LAFI_flavor_events.2.desc: "证明自己"
  LAFI_flavor_events.2.a: "我本胶东布衣..."
- LAFI_flavor_events.2.a.tt: "天下于我何加焉！"
+ LAFI_flavor_events.2.a.tt: "§O天下于我何加焉！§!"
  LAFI_flavor_events.3.tt: ""
  LAFI_flavor_events.3.desc: ""
  LAFI_flavor_events.3.a: ""
+ LAFI_flavor_events.4.tt: "猪？"
+ LAFI_flavor_events.4.desc: "昨夜，卫兵报告称在花园的阴影中瞥见了一个奇怪的身影。到了今晨，卫兵们在花园的树下发现了一头不知从哪来的猪。它旁若无人地趴在一堆凌乱的纸稿上，偶尔用蹄子拨弄着那些密密麻麻的文字。靠近后，侍从能听到这头猪在哼哼“叙事梯阵”、“顶点型多功能”“下如同上”之类叫人半懂不懂的词。当卫兵们试图把它抓走时，这头猪竟然口吐人言，表示愿为[Root.Monarch.GetName]效犬马……不，猪猡之劳。"
+ LAFI_flavor_events.4.a: "这是某种启示么？"
+ LAFI_flavor_events.4.b: "还是宰了吧（无慈悲）"
+ LAFI_flavor_events.5.tt: "玩安本？"
+ LAFI_flavor_events.5.desc: "安本好玩。"
+ LAFI_flavor_events.5.a: "不玩安本"
+ LAFI_flavor_events.5.b: "玩安本"
 # events_ended
 
 #flags
@@ -65,11 +76,15 @@
  LAFI_flavor_events_1_triggered_global_flag: "「极难战神？」事件已触发"
  LAFI_open_decisions_list_flag: "已展开LNC与动物朋友们系列决议"
  LAFI_recruited_Liewartine_flag: "已招募Liewartine"
+ LAFI_recruit_Liewartine_decision_1_a_cd_flag: "吃麦决议冷却记时flag"
+ LAFI_recruit_Liewartine_decision_1_a_decided_flag: "吃麦决议月度脉冲触发flag"
  LAFI_recruited_WuFuWang_flag: "已招募牢无"
  LAFI_WuFuWang_ruler_flag: "当前君主是「无」复惘"
- LAFI_WuFuWang_personality_added_1_flag: ""
- LAFI_WuFuWang_personality_added_2_flag: ""
- LAFI_flavor_events_2_triggered_flag: "事件「无」题已触发"
+ LAFI_WuFuWang_personality_added_1_flag: "已加特质1"
+ LAFI_WuFuWang_personality_added_2_flag: "已加特质2"
+ LAFI_flavor_events_2_triggered_flag: "事件无题已触发"
+ LAFI_recruited_XiaoTang_flag: "已招募小唐"
+ LAFI_enable_recruit_XiaoTang_decision_3_a_flag: "已启用决议点化众鸡"
 # flags_ended
 
 # modifiers
@@ -86,6 +101,10 @@
  desc_LAFI_mil_ideas_7_LNC_ghost_form_modifier: ""
  LAFI_flavor_events_2_modifier: "「无」的遗产"
  desc_LAFI_flavor_events_2_modifier: ""
+ LAFI_two_shock_advisor_modifier: "战术指导"
+ desc_LAFI_two_shock_advisor_modifier: ""
+ LAFI_play_anb_modifier: "安本得玩"
+ desc_LAFI_play_anb_modifier: ""
 # modifiers_ended
 
 # merc
@@ -101,9 +120,17 @@
  LAFI_recruit_Liewartine_decision_1_title: "招募牢头"
  LAFI_recruit_Liewartine_decision_1_desc: ""
  LAFI_recruit_Liewartine_decision_1_tt: "牢头领军作战失利时，位于战斗发生省份的友方部队将全部自刎归天。"
- LAFI_recruit_WuFuWang_decision_2_title: "请「无」神出山"
+ LAFI_recruit_Liewartine_decision_1_a_title: "吃麦"
+ LAFI_recruit_Liewartine_decision_1_a_desc: ""
+ LAFI_recruit_Liewartine_decision_1_a_tt: "治下随机一个拥有的产物为谷物或牲畜的省份，剥削税收发展度至1。\n注意，该效果不会立即发生。"
+ LAFI_recruit_WuFuWang_decision_2_title: "「无」复惘出山"
  LAFI_recruit_WuFuWang_decision_2_desc: ""
  LAFI_recruit_WuFuWang_decision_2_tt: "战争失败（单独媾和不计入）时，所有国家对我国失去20AE，「无」复惘失去三种君主能力£adm££dip££mil£各一点。在君主能力为0£adm£0£dip£0£mil£时，降低AE的效果不会触发。\n作为战争盟主胜利次数达到10/25次且君主能力至少为3£adm£3£dip£3£mil£且有空余特质槽时，获得传奇征服者/加冕铁网冠君主特质。"
+ LAFI_recruit_XiaoTang_decision_3_title: "招募教官小唐"
+ LAFI_recruit_XiaoTang_decision_3_desc: ""
+ LAFI_recruit_XiaoTang_decision_3_a_title: "点化众鸡"
+ LAFI_recruit_XiaoTang_decision_3_a_desc: ""
+ LAFI_recruit_XiaoTang_decision_3_a_tt: "该修正持续到当前军事顾问被解雇或死亡。"
 # decisions_ended
 
 # var
@@ -111,7 +138,13 @@
 # var_ended
 
 # adviser
- LAFI_XiaoTang_commandant_advisor: "教官"
+ LAFI_XiaoTang_commandant_advisor: "点化众鸡·教官"
  LAFI_XiaoTang_commandant_advisor_desc: ""
-
+ LAFI_Zhurou_Luca_advisor: "猪"
+ LAFI_Zhurou_Luca_advisor_desc: "大部分时间它只是在趴着睡觉。"
 # adviser_ended
+
+# personality
+ LAFI_WuFuWang_personality: "无复惘"
+ desc_LAFI_WuFuWang_personality: "无复惘专属特质的描述"
+# personality_ended

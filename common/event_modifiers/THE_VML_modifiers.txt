@@ -16,3 +16,15 @@ LAFI_flavor_events_2_modifier = {
     ae_impact = -0.1
     all_power_cost = -0.1
 }
+
+#
+LAFI_two_shock_advisor_modifier = {
+    leader_land_shock = 2
+    max_general_shock = 2
+    global_tax_income = 73.78
+}
+
+#安本造核是真少啊
+LAFI_play_anb_modifier = {
+    core_creation = -0.25
+}

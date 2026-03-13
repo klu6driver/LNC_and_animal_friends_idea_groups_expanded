@@ -18,9 +18,9 @@ LAFI_recruit_WuFuWang_scripted_effects = {
 # 小唐
 LAFI_recruit_XiaoTang_scripted_effects = {
     define_advisor = {
-        type = commandant
+        type = LAFI_XiaoTang_commandant_advisor
         name = "小唐"
-        skill = 3
+        skill = 2
         culture = ROOT
         religion = ROOT
         cost_multiplier = 0.5

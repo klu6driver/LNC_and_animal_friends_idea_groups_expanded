@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_LAFI_adm_ideas"
+		texturefile = "gfx//interface//ideas//LAFI_adm_idea.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_LAFI_mil_ideas"
+		texturefile = "gfx//interface//ideas//LAFI_mil_idea.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

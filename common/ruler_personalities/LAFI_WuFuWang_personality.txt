@@ -1,0 +1,15 @@
+# nm的，怎么特质还不能自定义图标？
+LAFI_WuFuWang_personality = {
+	
+	allow = {	
+	}
+	
+	chance = {
+		modifier = {
+			factor = -2
+		}
+	}
+	all_power_cost = -0.05
+	nation_designer_cost = 800
+	static = yes 
+}

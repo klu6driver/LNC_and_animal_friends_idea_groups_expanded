@@ -2,7 +2,7 @@
 
 **轮椅♿冲刺冲刺冲**
 
-自制娱乐性轮椅mod，博君一哂。部分内容灵感源自精华消息。前情提要：https://steamcommunity.com/sharedfiles/filedetails/?id=3647383354
+自制娱乐性轮椅mod，博君一哂。前情提要：https://steamcommunity.com/sharedfiles/filedetails/?id=3647383354
 
 LAFI即LNC_and_animal_friends_idea_groups_expanded。
 
@@ -12,7 +12,7 @@ LAFI即LNC_and_animal_friends_idea_groups_expanded。
 
 政策和理念组脉冲事件待填充。
 
-早期草稿，后续的todo之类的都会写到本地化里面。
+早期草稿，后续的todo之类的写到本地化里面了。
 
 #### 军事
 
@@ -33,7 +33,7 @@ LAFI即LNC_and_animal_friends_idea_groups_expanded。
    修正：统治者修正外交声誉扣1（我战报呢？），君主军事能力加1
 6. **pvp战术指导**：
    启用决议招募顾问小唐？
-   oa：战斗胜利扣敌方0.5年度人力（算了，改成绑定顾问的冲击+1）
+   oa：战斗胜利扣敌方0.5年度人力（算了，改成绑定顾问的加冲击）
    修正：0.2军事战术
 7. **LNC是否存在？**：
    oa：无实体：战斗结束时，获得7天20双防

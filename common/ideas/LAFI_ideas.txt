@@ -10,14 +10,45 @@ LAFI_adm_ideas = {
     }
 
     LAFI_adm_ideas_1 = {
+        effect = {
+            hidden_effect = {
+                if = {
+                    limit = {
+                        not = { has_country_flag = LAFI_flavor_events_4_triggered_flag }
+                    }
+                    country_event = {
+                        id = LAFI_flavor_events.4
+                    }
+                }
+            }
+        }
         advisor_cost = -0.15
         advisor_pool = 3
     }
     LAFI_adm_ideas_2 = {
+        effect = {
+            if = {
+                limit = {
+                    religion_group = muslim
+                }
+                add_piety = -0.5
+            }
+        }
         prestige = 1
         monthly_piety_accelerator = 0.002
     }
     LAFI_adm_ideas_3 = {
+        effect = {
+            if = {
+                limit = {
+                    not = { has_country_flag = LAFI_flavor_events_5_triggered_flag }
+                }
+                country_event = {
+                    id = LAFI_flavor_events.5
+                }
+            }
+        }
+
         core_creation = -0.1
     }
     LAFI_adm_ideas_4 = {
@@ -35,6 +66,9 @@ LAFI_adm_ideas = {
             add_stability = -1
         }
         administrative_efficiency = 0.1
+        # 想给帝国主义的，好像不行
+        cb_on_religious_enemies = yes
+        # 为什么我要填末日值减少来着？
         yearly_doom_reduction = 0.5
     }
 
